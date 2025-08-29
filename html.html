@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: #212529;
+    }
+    .hero {
+      height: 50vh;
+      min-height: 320px;
+      background: linear-gradient(135deg, #ff7b00cc, #ff3c00cc);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      border-radius: 10px;
+      margin: 20px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.25rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">CET138 Full Stack Development</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="fullstack.html">Full Stack</a></li>
+          <li class="nav-item"><a class="btn btn-primary ms-2 href="html.html">HTML</a></li>
+          <li class="nav-item"><a class="nav-link" href="css.html">CSS</a></li>
+          <li class="nav-item"><a class="nav-link" href="bootstrap.html">Bootstrap</a></li>
+          <li class="nav-item"><a class="nav-link" href="javascript.html">JavaScript</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h1>HTML</h1>
+      <p>The backbone of every website</p>
+    </div>
+  </header>
+
+  <!-- Content Section -->
+  <main class="container my-5">
+    <h2 class="mb-4 text-primary">About HTML</h2>
+    <p class="fs-5 mb-4">
+      HTML is the standard language for creating webpages. It uses a system of tags and elements to organize text, images, links, and other multimedia on the web. Without HTML, web browsers would not know how to display content properly.
+    </p>
+    <p class="fs-5">
+      HTML is essential because it provides the backbone of any website. Without HTML, CSS and JavaScript cannot work. It ensures that content is displayed in a structured and accessible manner across all browsers.
+    </p>
+
+    <!-- Example Cards for Key Concepts -->
+    <h2 class="mt-5 mb-4 text-success">Key Concepts</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm p-3">
+          <h4 class="text-primary">Tags</h4>
+          <p>HTML uses tags like &lt;h1&gt;, &lt;p&gt;, &lt;a&gt;, &lt;img&gt; to define structure and content on webpages.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm p-3">
+          <h4 class="text-success">Elements</h4>
+          <p>Elements are the building blocks of HTML, consisting of opening and closing tags along with content.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm p-3">
+          <h4 class="text-warning">Structure</h4>
+          <p>HTML provides the backbone structure that CSS and JavaScript build upon to style and add interactivity to websites.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p class="mb-0">&copy; 2025 CET138 Full Stack Development | ISMT College</p>
+    <p class="mb-0">&copy;  Yubraj Chaudhary</p>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
